@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room chat</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div>   
+       <nav class="navbar">
+           <a href="#"><i data-feather="arrow-left"></i></a>
+      <h3>Sayang<3</h3>
+      <a href="#"><i data-feather="more-vertical"></i></a>
+    </nav>
+    <div class="chat-box" id="chat-box">
+        <div class="message-received">Hello! How can I help you?</div>
+    </div>
+    <div class="chat">
+        <input type="text" id="user-input" placeholder="Type your message...." >
+        <i data-feather="send" id="send" onclick="sendMessage()"></i>
+       </div>
+    </div>
+<!-- Feather Icons -->
+    <script>
+        feather.replace();
+      </script>
+      <!-- My javascript -->
+      <script src="js/main.js"></script>
+</body>
+</html>
